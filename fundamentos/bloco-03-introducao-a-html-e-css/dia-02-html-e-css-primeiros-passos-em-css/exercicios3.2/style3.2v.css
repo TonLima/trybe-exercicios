@@ -1,0 +1,25 @@
+h1 {
+  font-family: sans-serif;
+  color: cadetblue;
+}
+p {
+  font-weight: 600;
+  font-size: 3em;
+  color: orchid;
+}
+body {
+  font-size: 16px;
+}
+.list-style {
+  font-style: italic;
+  text-align: center;
+}
+#color-yellow {
+  background-color: yellow;
+}
+#color-red {
+  background-color: red;
+}
+#color-brown {
+  background-color: brown;
+}
