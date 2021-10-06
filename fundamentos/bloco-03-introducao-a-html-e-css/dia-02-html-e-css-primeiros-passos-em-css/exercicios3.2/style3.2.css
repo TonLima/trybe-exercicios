@@ -1,0 +1,12 @@
+h1 {
+  font-size: 65px;
+}
+#color-style {
+  color: orange;
+}
+#color-background {
+  background-color: salmon;
+}
+.color-background {
+  background-color: olivedrab;
+}
