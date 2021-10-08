@@ -1,0 +1,25 @@
+/* Crie um arquivo no mesmo diretório e nomeie-o de 'style3.css'. */
+
+/* Os textos das tags 'p' e 'h1' ficam centralizados*/
+p,
+h1 {
+  text-align: center;
+}
+/* A cor da lista muda para laranja  quando o cursor está em cima*/
+ul:hover,
+ol:hover {
+  background-color: orange;
+}
+/* A fonte do item muda para branco quando se clica*/
+li:active {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: bisque;
+}
+/* Adicionado a propriedade 'list-style: none' para ambas as listas, fazendo com que suma as indicações das mesmas. */
+li {
+  list-style: none;
+}
