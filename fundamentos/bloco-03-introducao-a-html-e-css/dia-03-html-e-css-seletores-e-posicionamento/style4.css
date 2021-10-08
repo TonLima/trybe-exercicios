@@ -1,0 +1,46 @@
+/* Estilizando as divs para que na hora de passar o cursor por cima elas ganhem uma borda*/
+div:hover {
+  border: 5px solid black;
+}
+/* Fazendo com que cada div tenha sua cor própria*/
+div:nth-of-type(1) {
+  background-color: rgb(212, 166, 40);
+}
+
+div:nth-of-type(2) {
+  background-color: royalblue;
+}
+
+div:nth-of-type(3) {
+  background-color: springgreen;
+}
+
+div:nth-of-type(4) {
+  background-color: purple;
+}
+
+div:nth-of-type(5) {
+  background-color: lightblue;
+}
+/* Pegando a primeira div e o primeiro h3 e assim por diante nas proximas div, e mudando a cor das mesmas*/
+div:nth-of-type(1) h3 {
+  color: lightblue;
+}
+
+div:nth-of-type(2) h3 {
+  color: lightslategrey;
+}
+/* fazendo a terceira div ser maior que as demais*/
+div:nth-of-type(3) h3 {
+  color: red;
+  height: 100px;
+}
+
+div:nth-of-type(4) h3 {
+  color: cadetblue;
+}
+/* Deixando as divs impares <h3> com o texto itálico*/
+div:nth-child(odd) h3 {
+  color: coral;
+  font-style: italic;
+}
