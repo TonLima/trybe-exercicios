@@ -1,0 +1,73 @@
+/* Nesse código todos os itens que estão na lista ordenada ficam com a cor de fundo amarela.*/
+ol li {
+  background-color: yellow;
+}
+
+/* Se a numeração do item for par, a cor da fonte será verde*/
+ol li:nth-child(even) {
+  color: green;
+}
+
+/* O número sendo IMPAR está sendo usado a propriedade text-transform para deixar o texto maiúsculo.*/
+ol li:nth-child(odd) {
+  text-transform: uppercase;
+}
+
+/* Mudando as cores de  todas as tgs Header h1, h3 em vermelho*/
+h1,
+h3 {
+  color: red;
+}
+
+/* Foi feito o aumento do tamanho para 40px, e foi feito o acréscimo de uma borda de 1px preta sólida.*/
+h1 em,
+h3 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+/* Fazendo que as li's fiquem com 20px de tamanho de fonte.*/
+li {
+  font-size: 20px;
+}
+
+/* transforma todo texto que estiver em itálico dentro de alguma li, e está sendo usado a propriedade font-weight pra deixar em negrito.*/
+li em {
+  font-weight: 700;
+}
+
+/* Fazendo com as 3 primeiras linhas da li fiquem azul.*/
+/* Este seletor coloca a cor de font azul em todos os elementos exceto do 4 em diante */
+#linguagens li:not(:nth-child(n + 4)) {
+  color: blue;
+}
+
+/* Escrita "java" no texto muda a cor de fundo para rosa*/
+.pink {
+  background-color: pink;
+}
+
+/* Na lista de aliados da pessoa desenvolvedora, quando passar o mouse sobre cada um, otexto fica em negrito e assume a cor de fonte "temática do site".*/
+#aliados li a:hover {
+  font-weight: 700;
+}
+
+#aliados li a[href*="stackoverflow"] {
+  color: orange;
+}
+
+#aliados li a[href*="w3schools"] {
+  color: green;
+}
+
+#aliados li a[href*="mozilla"] {
+  color: black;
+}
+
+#aliados li a[href*="devdocs"] {
+  color: yellow;
+}
+
+#aliados li a[href*="trybe"] {
+  color: green;
+}
