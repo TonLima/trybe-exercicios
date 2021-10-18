@@ -1,12 +1,12 @@
-let anguloA = 35;
-let anguloB = 150;
-let anguloC = 20;
+let anguloA = 65;
+let anguloB = 100;
+let anguloC = 15;
 
 let somaDosAngulos = anguloA + anguloB + anguloC;
 let angulosPositivos = anguloA > 0 && anguloB > 0 && anguloC > 0;
 
 if (angulosPositivos) {
-  if (somaDosAngulos === 205) {
+  if (somaDosAngulos === 180) {
     console.log(true);
   } else {
     console.log(false);
