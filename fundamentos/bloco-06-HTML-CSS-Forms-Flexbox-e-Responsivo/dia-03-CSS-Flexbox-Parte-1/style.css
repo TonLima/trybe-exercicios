@@ -1,0 +1,24 @@
+.box {
+  color: #9069ef;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 50px;
+  height: 60px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 30%;
+}
+
+.box-container {
+  background-color: #0fa36b;
+  display: flex;
+  /*flex-direction: row;*/
+  /*flex-direction: column;*/
+  /*flex-direction: column-reverse;*/
+  /*flex-wrap: nowrap;*/
+  /*flex-wrap: wrap;*/
+  /*flex-wrap: wrap-reverse;*/
+  /*flex-wrap: row; */
+  /*flex-flow: row wrap;*/
+  /* ADICIONE AQUI SEUS TESTES */
+}
