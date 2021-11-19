@@ -1,12 +1,12 @@
 // template literals
 
-/*const myName = "Isabella";
+const myName = "Isabella";
 
-console.log("Hello" + " " + myName + "!");*/
+console.log("Hello" + " " + myName + "!");
 
-/*const myName = "Isabella";
+const myName = "Isabella";
 
-console.log(`Welcome ${myName}!`); // A sintaxe do template literals pede para usarmos o sinal de crases no início e no final da frase, e variáveis dentro de um ${...}*/
+console.log(`Welcome ${myName}!`); // A sintaxe do template literals pede para usarmos o sinal de crases no início e no final da frase, e variáveis dentro de um ${...}
 
 // Com o template literals
 console.log(`Primeira linha;
