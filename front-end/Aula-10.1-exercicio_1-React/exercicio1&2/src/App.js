@@ -13,7 +13,9 @@ const tarefas = ['Levantar', 'Tomar banho', 'Tomar café', 'Escovar os dentes', 
 class App extends React.Component {
   render() {
     return(
+      <div className='container'>
       <ul>{ tarefas.map(tarefa => Task(tarefa)) }</ul>
+      </div>
     );
   }
 }
