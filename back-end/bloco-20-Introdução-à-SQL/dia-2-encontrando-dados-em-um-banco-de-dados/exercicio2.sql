@@ -1,0 +1,1 @@
+SELECT 'Washington', 'Lima Ferreira', 'Bahia', 40;
