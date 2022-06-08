@@ -1,0 +1,1 @@
+SELECT 'Washington' AS Nome, 'Lima Ferreira' AS Sobrenome, 'Bahia' AS Cidade, 19 as Idade;
