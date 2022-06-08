@@ -1,1 +1,1 @@
-SELECT 'Washington', 'Lima Ferreira', 'Bahia', 40;
+SELECT 'Washington', 'Lima ', 'Bahia', 40;
