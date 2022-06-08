@@ -1,0 +1,1 @@
+SELECT CONCAT(title, ' ', release_year) AS 'Lançamento_do_filme' FROM film;
