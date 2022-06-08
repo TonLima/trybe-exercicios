@@ -1,0 +1,1 @@
+SELECT CONCAT(title, ' ', rating) AS Classificação FROM film;
