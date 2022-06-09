@@ -1,0 +1,1 @@
+SELECT DISTINCT nome, idade FROM Estudantes;
