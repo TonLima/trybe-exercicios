@@ -1,0 +1,1 @@
+SELECT  10 + 15 as 'Soma';
