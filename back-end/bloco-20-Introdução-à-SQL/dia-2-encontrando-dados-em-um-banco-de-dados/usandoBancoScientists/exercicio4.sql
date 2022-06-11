@@ -1,1 +1,1 @@
-SELECT 20 * 20 AS 'Multiplicação';
+SELECT (20 * 20) + 20 AS 'Expressão aritimética';
