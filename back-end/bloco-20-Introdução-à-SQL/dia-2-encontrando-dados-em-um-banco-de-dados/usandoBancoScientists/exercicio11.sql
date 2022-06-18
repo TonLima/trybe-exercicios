@@ -1,0 +1,1 @@
+SELECT DISTINCT project AS 'Código' FROM AssignedTo;
