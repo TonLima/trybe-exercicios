@@ -1,2 +1,2 @@
 SELECT * FROM film
-WHERE title LIKE 'gon___%';
+WHERE title LIKE '___gon%';
