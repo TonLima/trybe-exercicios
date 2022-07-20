@@ -1,0 +1,16 @@
+{
+  "name": "parametrosderota",
+  "version": "1.0.0",
+  "description": "Nesse código estamos adicionando rotas a ele",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Ton Lima",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
