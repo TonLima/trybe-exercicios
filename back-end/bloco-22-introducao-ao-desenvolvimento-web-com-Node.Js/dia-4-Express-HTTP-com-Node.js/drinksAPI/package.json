@@ -1,0 +1,16 @@
+{
+  "name": "drinksapi",
+  "version": "1.0.0",
+  "description": "Criando uma API de drinks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Ton Lima",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
